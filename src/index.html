@@ -8,8 +8,16 @@
 </head>
 <body>
     <div class="container py-4 px-3 mx-auto">
-      <h1>Hello, Bootstrap and Webpack!</h1>
-      <button class="btn btn-primary">Primary button</button>
+      <form>
+        <div class="mb-3">
+          <label for="inputRSS" class="form-label">
+            <h1>RSS агрегатор</h1>
+          </label>
+          <input type="text" class="form-control" id="inputRSS">
+          <div id="RSSHelp" class="form-text">Добавьте ссылку для RSS-подписки</div>
+        </div>
+        <button type="submit" class="btn btn-primary">Подписаться</button>
+      </form>
     </div>
 </body>
 </html>
